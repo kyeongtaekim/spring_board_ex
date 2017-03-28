@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="oracle_thin-15af42b988d-644f613e43c3235e" provider="oracle" driver="oracle_thin" name="Oracle - New Connection" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="jdbc:oracle:thin@localhost:1521:xe" port="1521" server="" database="XE" url="jdbc:oracle:thin:@//jdbc:oracle:thin@localhost:1521:xe:1521/XE" user="scott" password="Bw0BJVMjpQ==" home="C:\oraclexe\app\oracle\product\11.2.0\server" type="dev">
+			<provider-property name="@dbeaver-sid-service@" value="SERVICE"/>
+			<provider-property name="@dbeaver-use-rule-hint@" value="false"/>
+			<provider-property name="@dbeaver-connection-type@" value="BASIC"/>
+			<provider-property name="@dbeaver-check-schema-content@" value="true"/>
+			<provider-property name="@dbeaver-always-show-dba@" value="false"/>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+	</data-source>
+</data-sources>
